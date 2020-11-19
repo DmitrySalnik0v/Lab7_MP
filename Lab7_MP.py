@@ -3,8 +3,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.tree import export_graphviz
 from sklearn.neighbors import KNeighborsClassifier
-from subprocess import check_call
-import graphviz
 
 data = pd.read_csv('iris.csv')
 X = data.values[:,0:4]
